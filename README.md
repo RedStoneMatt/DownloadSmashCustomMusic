@@ -1,7 +1,7 @@
 # DownloadSmashCustomMusic
 
 
-A little java software to download musics from http://www.smashcustommusic.com/
+A little java software to download musics from http://www.smashcustommusic.com/ using the Wayback Machine (http://web.archive.org/)
 
 
 
@@ -23,7 +23,7 @@ So for example, if you want to download all the songs between id 1 and 10, the c
 
   java -jar DownloadSmashCustomMusic.jar 1 10 <extension>
   
-And so, the program will download every music from http://www.smashcustommusic.com/1/ to http://www.smashcustommusic.com/10/
+And so, the program will download every music from http://www.smashcustommusic.com/1/ to http://www.smashcustommusic.com/10/ from the Wayback Machine's archive
 
 The extension is on which extension you'd like to download the songs, for now there is only 4 available: BRSTM, BCSTM, BFSTMWIIU and BFSTMSWITCH
 
@@ -39,6 +39,7 @@ So for example, if you want to download all the songs between id 1 and 10, and i
 
 
 Songs with / or \ in their name won't be downloaded if you're on windows, sometimes if works, sometimes it don't.
+Since the last update, some special characters in the game's name like "&" will be replaced by "&amp;" for some reasons
 
 
 
