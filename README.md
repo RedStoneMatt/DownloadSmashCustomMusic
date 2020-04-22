@@ -38,7 +38,7 @@ So for example, if you want to download all the songs between id 1 and 10, and i
 # Known bugs
 
 
-Songs with / or \ in their name won't be downloaded if you're on windows, sometimes if works, sometimes it don't.
+Songs with / or \ in their name won't be downloaded if you're on windows, sometimes it works, sometimes it doesn't.
 
 Since the last update, some special characters in the game's name like "&" will be replaced by "&amp;" for some reasons
 
